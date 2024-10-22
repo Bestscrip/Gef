@@ -1,0 +1,267 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+local PhantomForcesWindow = Library:NewWindow("GEF")
+local KillingCheats = PhantomForcesWindow:NewSection("Food")
+KillingCheats:CreateButton("food", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").Pickups.Food.CFrame
+print("HI")
+end)
+KillingCheats:CreateButton("Soda", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").Pickups.Soda.CFrame
+print("HI")
+end)
+KillingCheats:CreateButton("Medkit", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").Pickups.Medkit.CFrame
+print("HI")
+end)
+local KillingCheats = PhantomForcesWindow:NewSection("Weapon")
+KillingCheats:CreateButton("Bat", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").Pickups.Bat.CFrame
+print("HI")
+end)
+KillingCheats:CreateButton("Hammer", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").Pickups.Hammer.CFrame
+print("HI")
+end)
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+local PhantomForcesWindow = Library:NewWindow("GEF")
+local KillingCheats = PhantomForcesWindow:NewSection("Food")
+KillingCheats:CreateButton("food", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").Pickups.Food.CFrame
+print("HI")
+end)
+KillingCheats:CreateButton("Soda", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").Pickups.Soda.CFrame
+print("HI")
+end)
+KillingCheats:CreateButton("Medkit", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").Pickups.Medkit.CFrame
+print("HI")
+end)
+local KillingCheats = PhantomForcesWindow:NewSection("Weapon")
+KillingCheats:CreateButton("Bat", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").Pickups.Bat.CFrame
+print("HI")
+end)
+KillingCheats:CreateButton("Crowbar", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").Pickups.Crowbar.CFrame
+print("HI")
+end)
+KillingCheats:CreateButton("reach 10", function()
+game.StarterGui:SetCore("SendNotification", {
+    Title    = "Sword Reach Script Loaded by"; 
+    Text     = "MADE BY qweqrwtA You need to hold a tool when executing."; 
+    Icon     = ""; 
+    Duration = 40;
+    Callback = bindableFunction;
+    Button1  = "con cak";  
+    Button2  = "ok good";
+})
+for i,v in pairs(game:GetService'Players'.LocalPlayer.Character:GetChildren())do
+                if v:isA("Tool") then
+                    local a = Instance.new("SelectionBox",v.Handle)
+                    a.Adornee = v.Handle
+                    v.Handle.Size = Vector3.new(10,10,10)
+                    v.GripPos = Vector3.new(0,0,0)
+                    lplayer.Character.Humanoid:UnequipTools()
+                end
+end
+print("HI")
+end)
+KillingCheats:CreateButton("reach 20", function()
+game.StarterGui:SetCore("SendNotification", {
+    Title    = "Sword Reach Script Loaded by"; 
+    Text     = "MADE BY qweqrwtA You need to hold a tool when executing."; 
+    Icon     = ""; 
+    Duration = 40;
+    Callback = bindableFunction;
+    Button1  = "đéo câm";  
+    Button2  = "ok good";
+})
+for i,v in pairs(game:GetService'Players'.LocalPlayer.Character:GetChildren())do
+                if v:isA("Tool") then
+                    local a = Instance.new("SelectionBox",v.Handle)
+                    a.Adornee = v.Handle
+                    v.Handle.Size = Vector3.new(20,20,20)
+                    v.GripPos = Vector3.new(0,0,0)
+                    lplayer.Character.Humanoid:UnequipTools()
+                end
+end
+print("HI")
+end)
+KillingCheats:CreateButton("reach 30", function()
+game.StarterGui:SetCore("SendNotification", {
+    Title    = "Sword Reach Script Loaded by"; 
+    Text     = "MADE BY qweqrwtA You need to hold a tool when executing."; 
+    Icon     = ""; 
+    Duration = 40;
+    Callback = bindableFunction;
+    Button1  = "đụ má mày";  
+    Button2  = "thx";
+})
+for i,v in pairs(game:GetService'Players'.LocalPlayer.Character:GetChildren())do
+                if v:isA("Tool") then
+                    local a = Instance.new("SelectionBox",v.Handle)
+                    a.Adornee = v.Handle
+                    v.Handle.Size = Vector3.new(30,30,30)
+                    v.GripPos = Vector3.new(0,0,0)
+                    lplayer.Character.Humanoid:UnequipTools()
+                end
+end
+print("HI")
+end)
+local KillingCheats = PhantomForcesWindow:NewSection("Gun")
+KillingCheats:CreateButton("Handgun", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").Pickups.Handgun.CFrame
+print("HI")
+end)
+KillingCheats:CreateButton("Shotgun", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").Pickups.Shotgun.CFrame
+print("HI")
+end)
+KillingCheats:CreateButton("Shells", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").Pickups.Shells.CFrame
+print("HI")
+end)
+local KillingCheats = PhantomForcesWindow:NewSection("Other")
+KillingCheats:CreateButton("Lantern", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").Pickups.Lantern.CFrame
+print("HI")
+end)
+KillingCheats:CreateButton("Money", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").Pickups.Money.CFrame
+print("HI")
+end)
+KillingCheats:CreateButton("Hammer", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").Pickups.Hammer.CFrame
+print("HI")
+end)
+KillingCheats:CreateButton("GPS", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").Pickups.GPS.CFrame
+print("HI")
+end)
+KillingCheats:CreateButton("fullbright", function()
+if not _G.FullBrightExecuted then
+
+	_G.FullBrightEnabled = false
+
+	_G.NormalLightingSettings = {
+		Brightness = game:GetService("Lighting").Brightness,
+		ClockTime = game:GetService("Lighting").ClockTime,
+		FogEnd = game:GetService("Lighting").FogEnd,
+		GlobalShadows = game:GetService("Lighting").GlobalShadows,
+		Ambient = game:GetService("Lighting").Ambient
+	}
+
+	game:GetService("Lighting"):GetPropertyChangedSignal("Brightness"):Connect(function()
+		if game:GetService("Lighting").Brightness ~= 1 and game:GetService("Lighting").Brightness ~= _G.NormalLightingSettings.Brightness then
+			_G.NormalLightingSettings.Brightness = game:GetService("Lighting").Brightness
+			if not _G.FullBrightEnabled then
+				repeat
+					wait()
+				until _G.FullBrightEnabled
+			end
+			game:GetService("Lighting").Brightness = 1
+		end
+	end)
+
+	game:GetService("Lighting"):GetPropertyChangedSignal("ClockTime"):Connect(function()
+		if game:GetService("Lighting").ClockTime ~= 12 and game:GetService("Lighting").ClockTime ~= _G.NormalLightingSettings.ClockTime then
+			_G.NormalLightingSettings.ClockTime = game:GetService("Lighting").ClockTime
+			if not _G.FullBrightEnabled then
+				repeat
+					wait()
+				until _G.FullBrightEnabled
+			end
+			game:GetService("Lighting").ClockTime = 12
+		end
+	end)
+
+	game:GetService("Lighting"):GetPropertyChangedSignal("FogEnd"):Connect(function()
+		if game:GetService("Lighting").FogEnd ~= 786543 and game:GetService("Lighting").FogEnd ~= _G.NormalLightingSettings.FogEnd then
+			_G.NormalLightingSettings.FogEnd = game:GetService("Lighting").FogEnd
+			if not _G.FullBrightEnabled then
+				repeat
+					wait()
+				until _G.FullBrightEnabled
+			end
+			game:GetService("Lighting").FogEnd = 786543
+		end
+	end)
+
+	game:GetService("Lighting"):GetPropertyChangedSignal("GlobalShadows"):Connect(function()
+		if game:GetService("Lighting").GlobalShadows ~= false and game:GetService("Lighting").GlobalShadows ~= _G.NormalLightingSettings.GlobalShadows then
+			_G.NormalLightingSettings.GlobalShadows = game:GetService("Lighting").GlobalShadows
+			if not _G.FullBrightEnabled then
+				repeat
+					wait()
+				until _G.FullBrightEnabled
+			end
+			game:GetService("Lighting").GlobalShadows = false
+		end
+	end)
+
+	game:GetService("Lighting"):GetPropertyChangedSignal("Ambient"):Connect(function()
+		if game:GetService("Lighting").Ambient ~= Color3.fromRGB(178, 178, 178) and game:GetService("Lighting").Ambient ~= _G.NormalLightingSettings.Ambient then
+			_G.NormalLightingSettings.Ambient = game:GetService("Lighting").Ambient
+			if not _G.FullBrightEnabled then
+				repeat
+					wait()
+				until _G.FullBrightEnabled
+			end
+			game:GetService("Lighting").Ambient = Color3.fromRGB(178, 178, 178)
+		end
+	end)
+
+	game:GetService("Lighting").Brightness = 1
+	game:GetService("Lighting").ClockTime = 12
+	game:GetService("Lighting").FogEnd = 786543
+	game:GetService("Lighting").GlobalShadows = false
+	game:GetService("Lighting").Ambient = Color3.fromRGB(178, 178, 178)
+
+	local LatestValue = true
+	spawn(function()
+		repeat
+			wait()
+		until _G.FullBrightEnabled
+		while wait() do
+			if _G.FullBrightEnabled ~= LatestValue then
+				if not _G.FullBrightEnabled then
+					game:GetService("Lighting").Brightness = _G.NormalLightingSettings.Brightness
+					game:GetService("Lighting").ClockTime = _G.NormalLightingSettings.ClockTime
+					game:GetService("Lighting").FogEnd = _G.NormalLightingSettings.FogEnd
+					game:GetService("Lighting").GlobalShadows = _G.NormalLightingSettings.GlobalShadows
+					game:GetService("Lighting").Ambient = _G.NormalLightingSettings.Ambient
+				else
+					game:GetService("Lighting").Brightness = 1
+					game:GetService("Lighting").ClockTime = 12
+					game:GetService("Lighting").FogEnd = 786543
+					game:GetService("Lighting").GlobalShadows = false
+					game:GetService("Lighting").Ambient = Color3.fromRGB(178, 178, 178)
+				end
+				LatestValue = not LatestValue
+			end
+		end
+	end)
+end
+
+_G.FullBrightExecuted = true
+_G.FullBrightEnabled = not _G.FullBrightEnabled
+print("HI")
+end)
